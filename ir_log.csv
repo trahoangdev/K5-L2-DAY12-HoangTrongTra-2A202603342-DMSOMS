@@ -1,0 +1,27 @@
+﻿frame_id,source,phenomenon,affected_field,effect_on_label
+S02_ir,IR_sim,Thấy rõ hình giống em bé nằm trong nôi ở trái ảnh. Bản RGB tối hơn nhưng vẫn thấy hình nằm trong nôi.,infant_seat,"Đã gán nôi infant_seat ở rear_right, facing=rear trên cả hai khung. Cách gán nôi có hình giống em bé cần coach xác nhận vì GUIDE §4.1 mô tả nôi trống."
+S03_ir,IR_sim,Mép thùng ở trái ảnh tách rõ khỏi đệm. Bản RGB mặc định tối và thấy cạnh thùng rõ hơn sau khi tăng gamma hiển thị.,object.type,Gán box ở rear_right trên cả hai ảnh. Chỉnh biên box riêng theo từng ảnh.
+S03_ir,IR_sim,Vật nhỏ ở phải ảnh hiện rõ thân hình trụ và quai. Trên RGB vật vẫn là một khối tối dù đã tăng gamma hiển thị.,object.type,Gán cup ở rear_left trên IR và other trên RGB.
+S03_ir,IR_sim,Giữa ảnh thấy rõ hình giống trẻ em ngồi trong ghế. IR làm đường viền tay và đệm rõ hơn RGB tối.,child_seat.occupied,"Sau cập nhật Raw, gán child_seat tại rear_middle với occupied=yes trên RGB và IR. Thấy người ngồi trong ghế trên từng ảnh."
+S04_ir,IR_sim,Áo xanh trên RGB chuyển thành vùng tối trên IR. Hình dáng người ngồi và đệm ghế ở giữa vẫn thấy được trên cả hai ảnh.,child_seat.occupied,"Sau cập nhật Raw, gán child_seat tại rear_middle với occupied=yes trên RGB và IR."
+S05_ir,IR_sim,Bản IR tách rõ hình người và ghế ở trái ảnh khỏi phần đệm tối. Bản RGB mặc định chìm nhiều chi tiết vào bóng tối.,child_seat.occupied,"Sau cập nhật Raw, gán child_seat tại rear_right với occupied=yes trên RGB và IR. Bản RGB tối nhưng vẫn thấy người ngồi."
+S06_ir,IR_sim,Túi đỏ trên RGB mất dấu hiệu màu ở bản IR. Thân túi và hai quai vẫn phân biệt được.,object.type,Giữ bag ở rear_right trên cả hai ảnh.
+S06_ir,IR_sim,Hình dáng người ngồi cúi đầu và ghế ở giữa vẫn nhận ra trên IR dù áo và tóc đổi sắc độ.,child_seat.occupied,"Sau cập nhật Raw, gán child_seat tại rear_middle với occupied=yes trên RGB và IR."
+S07_ir,IR_sim,Thân áo ở giữa ảnh hiện rõ đường gân trên IR. Tăng gamma hiển thị giúp kiểm tra độc lập phần thân trên bản RGB tối.,person.seatbelt,Gán not_worn cho person ở rear_middle trên cả hai ảnh vì thấy phần thân và không có dải dây ngang qua.
+S07_ir,IR_sim,Mép thùng ở trái ảnh và bàn tay đặt phía trên tách rõ trên IR. Bản RGB mặc định khó thấy ranh giới ở cạnh thùng.,object.type,Gán box ở rear_right trên cả hai ảnh. Dùng viền thùng nhìn thấy để đặt box.
+S08_ir,IR_sim,"Mất màu áo và quần trên IR. Hình dáng đầu cúi, tay và ghế giữa vẫn nhận ra.",child_seat.occupied,"Sau cập nhật Raw, gán child_seat tại rear_middle với occupied=yes trên RGB và IR."
+D01,real_IR,Vùng mắt phải chìm trong bóng tối cạnh vật có gọng và có đốm sáng trên bề mặt vật. Không thấy rõ khe mắt hay mép mí.,face.eye_right,Gán unknown và đánh outside cho bốn mốc mắt phải.
+D01,real_IR,Vùng mắt trái có tương phản thấp ngay cả sau khi tăng gamma hiển thị. Không xác định được khe mắt hoặc từng mép mí.,face.eye_left,Gán unknown và đánh outside cho bốn mốc mắt trái.
+D01,real_IR,Thấy vật có gọng sát mặt nhưng vùng tiếp xúc với mặt tối và bị che một phần.,face.glasses,Giữ unknown vì chưa xác định được kính đang đeo hay chỉ nằm sát vùng mắt.
+D01,real_IR,Ánh sáng thấp và gọng sát mắt che bớt thông tin về hướng nhìn.,face.gaze_zone,Gán other vì vùng nhìn cụ thể không xác định được.
+D02,real_IR,Có điểm sáng nhỏ ở mắt trái. Khe mắt hai bên vẫn phân biệt được khi phóng to.,face.eye_left,Gán open cho mắt trái. Giữ các mốc mí và khóe ở trạng thái nhìn thấy.
+D02,real_IR,Có vệt sáng trên áo khoác. Dải dây sẫm chạy riêng và liên tục từ vai đến hông đối diện.,person.seatbelt,Gán worn_correct theo vị trí dải dây sẫm.
+D02,real_IR,Thấy khe mắt và hướng đầu nhưng khung hình không cho thấy đích nhìn cụ thể.,face.gaze_zone,Gán other vì chưa xác định được vùng nhìn.
+D03,real_IR,Gọng kính hiện rõ nhưng phần mắt dưới tròng có tương phản thấp. Có đốm sáng sát gọng.,face.eye_left / face.eye_right,Gán unknown cho cả hai mắt. Đánh outside cho tám mốc mắt vì chưa xác định được vị trí từng điểm.
+D03,real_IR,Thấy gọng đang đeo nhưng sắc độ tròng và cảnh tối khiến loại kính chưa rõ.,face.glasses,Giữ unknown cho loại kính.
+D04,real_IR,Các đốm sáng trên hai tròng làm khó phân biệt khe mắt và mép mí.,face.eye_left / face.eye_right,Gán unknown cho hai mắt và đánh outside cho các mốc mắt.
+D04,real_IR,"Cổ chai áp vào miệng và che đường viền môi. Vị trí giữa hai môi có thể ước lượng, còn hai khóe không đủ rõ.",face13,"Đánh occluded cho lip_upper và lip_lower, outside cho hai khóe miệng."
+D05,real_IR,Mặt quay nghiêng và thiếu tương phản. Tăng gamma hiển thị giúp thấy đường mũi và môi rõ hơn. Vùng khe mắt và mép mí vẫn không đủ rõ.,face.eye_left / face.eye_right,Gán unknown cho hai mắt và đánh outside cho tám mốc mắt.
+D05,real_IR,Cẳng tay vắt qua trước thân và một dải sáng chỉ thấy ở bên vai. Không theo được đường dây từ vai qua ngực.,person.seatbelt,Giữ unknown vì khung hình không cho thấy cách dây đi qua thân.
+D06,real_IR,Nhiều đốm sáng trên tròng kính ở vùng mắt. Zoom giúp thấy rõ đốm sáng nhưng chưa đủ để xác định từng khóe và mép mí.,face.eye_left / face.eye_right,Gán unknown cho hai mắt và đánh outside cho tám mốc mắt.
+D06,real_IR,Dải dây sẫm tách rõ khỏi họa tiết và các mép áo ở giữa thân.,person.seatbelt,Gán worn_correct theo dải dây chéo từ vai đến hông đối diện.

@@ -1,0 +1,95 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,eye_left,khác giá trị (IoU=0.54),unknown,open,ambiguous,"4.4-1, 4.5",Phóng to mắt trái trên CVAT. Chọn open khi thấy khe mắt mở. Giữ unknown nếu chưa phân biệt được hai mí.
+D01.png,face,eye_right,khác giá trị (IoU=0.54),unknown,open,ambiguous,"4.4-1, 4.5",Phóng to mắt phải trên CVAT. Chọn open khi thấy khe mắt mở. Giữ unknown nếu chưa phân biệt được hai mí.
+D01.png,face,gaze_zone,khác giá trị (IoU=0.54),other,road,ambiguous,4.5,"Cùng đối chiếu hướng đầu, mắt và đích nhìn trong cabin. Chọn road nếu xác định hướng qua kính chắn gió. Dùng other khi chưa xác định được."
+D01.png,face,glasses,khác giá trị (IoU=0.54),unknown,clear,ambiguous,4.5,"Cùng xem gọng, vị trí đeo và độ nhìn xuyên tròng. Giữ unknown nếu ảnh NIR chưa đủ để xác định loại kính hoặc trạng thái đeo."
+D01.png,face13,left_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_outer trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D01.png,face13,left_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_inner trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D01.png,face13,left_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_upper trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D01.png,face13,left_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_lower trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D01.png,face13,right_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_outer trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D01.png,face13,right_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_inner trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D01.png,face13,right_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_upper trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D01.png,face13,right_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_lower trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D02.png,face,gaze_zone,khác giá trị (IoU=0.82),other,road,ambiguous,4.5,"Cùng đối chiếu hướng đầu, mắt và đích nhìn trong cabin. Chọn road nếu xác định hướng qua kính chắn gió. Dùng other khi chưa xác định được."
+D02.png,phone,box,chỉ có ở peer (hoặc IoU thấp),,,ambiguous,4.7,"Xem vùng x983–1016, y423–443 gần mặt ở D02. Chỉ thêm phone khi thấy cạnh, góc hoặc màn hình điện thoại."
+D03.png,hand,on_wheel,khác giá trị (IoU=0.63),unknown,yes,ambiguous,4.7,"Soát tay trái tại vành vô lăng. Chọn yes khi thấy tiếp xúc, giữ unknown khi vị trí chạm bị che."
+D03.png,hand,on_wheel,khác giá trị (IoU=0.74),unknown,yes,ambiguous,4.7,"Soát tay phải tại vành vô lăng. Chọn yes khi thấy tiếp xúc, giữ unknown khi vị trí chạm bị che."
+D03.png,face,eye_left,khác giá trị (IoU=0.81),unknown,open,ambiguous,"4.4-1, 4.5",Phóng to mắt trái trên CVAT. Chọn open khi thấy khe mắt mở. Giữ unknown nếu chưa phân biệt được hai mí.
+D03.png,face,eye_right,khác giá trị (IoU=0.81),unknown,open,ambiguous,"4.4-1, 4.5",Phóng to mắt phải trên CVAT. Chọn open khi thấy khe mắt mở. Giữ unknown nếu chưa phân biệt được hai mí.
+D03.png,face,gaze_zone,khác giá trị (IoU=0.81),other,road,ambiguous,4.5,"Cùng đối chiếu hướng đầu, mắt và đích nhìn trong cabin. Chọn road nếu xác định hướng qua kính chắn gió. Dùng other khi chưa xác định được."
+D03.png,face,glasses,khác giá trị (IoU=0.81),unknown,clear,ambiguous,4.5,"Cùng xem gọng, vị trí đeo và độ nhìn xuyên tròng. Giữ unknown nếu ảnh NIR chưa đủ để xác định loại kính hoặc trạng thái đeo."
+D03.png,face13,left_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_outer trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D03.png,face13,left_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_inner trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D03.png,face13,left_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_upper trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D03.png,face13,left_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_lower trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D03.png,face13,right_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_outer trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D03.png,face13,right_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_inner trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D03.png,face13,right_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_upper trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D03.png,face13,right_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_lower trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D03.png,face13,mouth_right.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc mouth_right trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D04.png,face,eye_left,khác giá trị (IoU=0.67),unknown,open,ambiguous,"4.4-1, 4.5",Phóng to mắt trái trên CVAT. Chọn open khi thấy khe mắt mở. Giữ unknown nếu chưa phân biệt được hai mí.
+D04.png,face,eye_right,khác giá trị (IoU=0.67),unknown,open,ambiguous,"4.4-1, 4.5",Phóng to mắt phải trên CVAT. Chọn open khi thấy khe mắt mở. Giữ unknown nếu chưa phân biệt được hai mí.
+D04.png,face,gaze_zone,khác giá trị (IoU=0.67),other,road,ambiguous,4.5,"Cùng đối chiếu hướng đầu, mắt và đích nhìn trong cabin. Chọn road nếu xác định hướng qua kính chắn gió. Dùng other khi chưa xác định được."
+D04.png,face,glasses,khác giá trị (IoU=0.67),unknown,clear,ambiguous,4.5,"Cùng xem gọng, vị trí đeo và độ nhìn xuyên tròng. Giữ unknown nếu ảnh NIR chưa đủ để xác định loại kính hoặc trạng thái đeo."
+D04.png,face13,left_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_outer trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D04.png,face13,left_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_inner trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D04.png,face13,left_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_upper trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D04.png,face13,left_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_lower trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D04.png,face13,right_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_outer trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D04.png,face13,right_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_inner trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D04.png,face13,right_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_upper trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D04.png,face13,right_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_lower trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D04.png,face13,mouth_left.outside,khác cờ,1,0,mine,4.6,Cổ chai che vùng miệng và chưa định vị được khóe. Giữ outside cho mốc này.
+D04.png,face13,mouth_right.outside,khác cờ,1,0,mine,4.6,Cổ chai che vùng miệng và chưa định vị được khóe. Giữ outside cho mốc này.
+D04.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,Cổ chai che viền môi. Vẫn ước lượng được vị trí giữa môi nên giữ occluded cho mốc này.
+D04.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,Cổ chai che viền môi. Vẫn ước lượng được vị trí giữa môi nên giữ occluded cho mốc này.
+D05.png,person,seatbelt,khác giá trị (IoU=0.84),unknown,worn_correct,mine,4.7,Cẳng tay che thân nên chưa thấy dải dây chạy từ vai đến hông đối diện. Giữ unknown.
+D05.png,face,eye_left,khác giá trị (IoU=0.64),unknown,open,ambiguous,"4.4-1, 4.5",Phóng to mắt trái trên CVAT. Chọn open khi thấy khe mắt mở. Giữ unknown nếu chưa phân biệt được hai mí.
+D05.png,face,eye_right,khác giá trị (IoU=0.64),unknown,open,ambiguous,"4.4-1, 4.5",Phóng to mắt phải trên CVAT. Chọn open khi thấy khe mắt mở. Giữ unknown nếu chưa phân biệt được hai mí.
+D05.png,face,gaze_zone,khác giá trị (IoU=0.64),other,road,ambiguous,4.5,"Cùng đối chiếu hướng đầu, mắt và đích nhìn trong cabin. Chọn road nếu xác định hướng qua kính chắn gió. Dùng other khi chưa xác định được."
+D05.png,hand,on_wheel,khác giá trị (IoU=0.82),no,yes,mine,4.7,"Box IoU 0,82 là tay phải gần cạnh ghế, xa vành vô lăng. Giữ on_wheel=no."
+D05.png,face13,left_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_outer trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D05.png,face13,left_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_inner trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D05.png,face13,left_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_upper trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D05.png,face13,left_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_lower trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D05.png,face13,right_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_outer trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D05.png,face13,right_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_inner trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D05.png,face13,right_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_upper trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D05.png,face13,right_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_lower trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D05.png,face13,mouth_right.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc mouth_right trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D06.png,face,eye_left,khác giá trị (IoU=0.84),unknown,open,ambiguous,"4.4-1, 4.5",Phóng to mắt trái trên CVAT. Chọn open khi thấy khe mắt mở. Giữ unknown nếu chưa phân biệt được hai mí.
+D06.png,face,eye_right,khác giá trị (IoU=0.84),unknown,open,ambiguous,"4.4-1, 4.5",Phóng to mắt phải trên CVAT. Chọn open khi thấy khe mắt mở. Giữ unknown nếu chưa phân biệt được hai mí.
+D06.png,face,gaze_zone,khác giá trị (IoU=0.84),other,road,ambiguous,4.5,"Cùng đối chiếu hướng đầu, mắt và đích nhìn trong cabin. Chọn road nếu xác định hướng qua kính chắn gió. Dùng other khi chưa xác định được."
+D06.png,face,glasses,khác giá trị (IoU=0.84),unknown,clear,ambiguous,4.5,"Cùng xem gọng, vị trí đeo và độ nhìn xuyên tròng. Giữ unknown nếu ảnh NIR chưa đủ để xác định loại kính hoặc trạng thái đeo."
+D06.png,face13,left_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_outer trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D06.png,face13,left_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_inner trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D06.png,face13,left_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_upper trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D06.png,face13,left_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc left_eye_lower trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D06.png,face13,right_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_outer trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D06.png,face13,right_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_inner trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D06.png,face13,right_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_upper trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+D06.png,face13,right_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,Đối chiếu mốc right_eye_lower trong CVAT. Dùng outside nếu không định vị được và occluded nếu bị che nhưng ước lượng được vị trí.
+S01_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.5,Tóc và góc đầu che vùng mắt và mũi. Giữ quyết định bỏ box face.
+S01_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.5,Tóc và góc đầu che vùng mắt và mũi. Giữ quyết định bỏ box face.
+S02_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,"4.1, 4.2",Nôi quay về sau tại rear_right có hình giống em bé. Bản mình giữ box nôi theo hình dạng và hướng. Hỏi coach về phạm vi infant_seat cho ca này.
+S02_rgb.png,child_seat,occupied,khác giá trị (IoU=0.90),unknown,no,ambiguous,"4.4-1, 4.8","Rà lòng ghế rear_left trên chính ảnh RGB sau khi chỉnh hiển thị. Chọn no nếu thấy rõ ghế trống, giữ unknown nếu chưa thấy rõ."
+S02_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,ambiguous,"4.1, 4.2",Nôi quay về sau tại rear_right có hình giống em bé. Bản mình giữ box nôi theo hình dạng và hướng. Hỏi coach về phạm vi infant_seat cho ca này.
+S03_ir.png,object,type,khác giá trị (IoU=0.92),box,other,mine,4.8,Vật ở rear_right có các mặt phẳng và góc thẳng. Giữ object.type=box cho khối này.
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,"4.4-4, 4.8",Vật nhỏ ở rear_left có thân hình trụ và quai thấy rõ trên IR-sim. Giữ box object với type=cup.
+S03_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8 và Raw coach,Thấy ghế trẻ em và hình người ngồi tại rear_middle. Giữ box child_seat với occupied=yes theo Raw cập nhật của coach. Đề nghị peer rà đúng ghế.
+S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,"4.4-4, 4.8",Có vật nhỏ riêng ở rear_left. Giữ box sát vật và type=other vì RGB chưa đủ rõ để xác định loại.
+S03_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8 và Raw coach,Thấy ghế trẻ em và hình người ngồi tại rear_middle. Giữ box child_seat với occupied=yes theo Raw cập nhật của coach. Đề nghị peer rà đúng ghế.
+S03_rgb.png,object,type,khác giá trị (IoU=0.84),box,other,mine,4.8,Vật ở rear_right có các mặt phẳng và góc thẳng. Giữ object.type=box cho khối này.
+S04_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8 và Raw coach,Thấy ghế trẻ em và hình người ngồi tại rear_middle. Giữ box child_seat với occupied=yes theo Raw cập nhật của coach. Đề nghị peer rà đúng ghế.
+S04_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8 và Raw coach,Thấy ghế trẻ em và hình người ngồi tại rear_middle. Giữ box child_seat với occupied=yes theo Raw cập nhật của coach. Đề nghị peer rà đúng ghế.
+S05_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8 và Raw coach,Thấy ghế trẻ em và hình người ngồi tại rear_right. Giữ box child_seat với occupied=yes theo Raw cập nhật của coach. Đề nghị peer rà đúng ghế.
+S05_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8 và Raw coach,Thấy ghế trẻ em và hình người ngồi tại rear_right. Giữ box child_seat với occupied=yes theo Raw cập nhật của coach. Đề nghị peer rà đúng ghế.
+S06_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8 và Raw coach,Thấy ghế trẻ em và hình người ngồi tại rear_middle. Giữ box child_seat với occupied=yes theo Raw cập nhật của coach. Đề nghị peer rà đúng ghế.
+S06_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8 và Raw coach,Thấy ghế trẻ em và hình người ngồi tại rear_middle. Giữ box child_seat với occupied=yes theo Raw cập nhật của coach. Đề nghị peer rà đúng ghế.
+S07_ir.png,object,type,khác giá trị (IoU=0.95),box,bag,mine,4.8,Vật ở rear_right có các mặt phẳng và góc thẳng. Giữ object.type=box cho khối này.
+S07_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.5,Tóc và góc đầu che vùng mắt và mũi. Giữ quyết định bỏ box face.
+S07_rgb.png,object,type,khác giá trị (IoU=0.92),box,bag,mine,4.8,Vật ở rear_right có các mặt phẳng và góc thẳng. Giữ object.type=box cho khối này.
+S07_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.5,Tóc và góc đầu che vùng mắt và mũi. Giữ quyết định bỏ box face.
+S08_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8 và Raw coach,Thấy ghế trẻ em và hình người ngồi tại rear_middle. Giữ box child_seat với occupied=yes theo Raw cập nhật của coach. Đề nghị peer rà đúng ghế.
+S08_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8 và Raw coach,Thấy ghế trẻ em và hình người ngồi tại rear_middle. Giữ box child_seat với occupied=yes theo Raw cập nhật của coach. Đề nghị peer rà đúng ghế.
