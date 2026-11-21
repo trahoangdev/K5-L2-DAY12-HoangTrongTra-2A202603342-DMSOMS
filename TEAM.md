@@ -1,6 +1,6 @@
 # TEAM — Ngày 12
 
-Mã bộ ảnh **G02** · Hình thức dự kiến **cá nhân**, chờ xác nhận.
+Mã bộ ảnh: G02 · Hình thức: cá nhân
 
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với (peer diff) | Số dòng disagreement đã xử lý |
 |---|---|---|---|---|
