@@ -4,7 +4,7 @@ Mã bộ ảnh **G02** · Hình thức dự kiến **cá nhân**, chờ xác nh�
 
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với (peer diff) | Số dòng disagreement đã xử lý |
 |---|---|---|---|---|
-| Hoàng Trọng Trà | 2A202603342 | Bản export có đủ 22 khung đã gán. | Dương Trí Dũng (2A202603341), cùng mã G02 | Đã rà 94 dòng. Tạm giữ bản mình ở 26 dòng và đánh dấu 68 dòng cần đối chiếu. |
+| Hoàng Trọng Trà | 2A202603342 | Bản export có đủ 22 khung đã gán. | Dương Trí Dũng (2A202603341), cùng mã G02 | 5 |
 
 ## Ca cần hỏi coach
 
